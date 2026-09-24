@@ -1,0 +1,52 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: var(--nero);
+  border-bottom: 3px solid var(--rosso-corsa);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.navbar__brand {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bianco);
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+}
+
+.navbar__brand em {
+  color: var(--rosso-corsa);
+  font-style: normal;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navbar__links a {
+  color: var(--bianco);
+  font-weight: 500;
+  padding: 0.4rem 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar__links a:hover {
+  border-color: var(--giallo-modena);
+}
+
+/* Enlace de la ruta actualmente activa */
+.navbar__links a.active {
+  border-color: var(--rosso-corsa);
+  color: var(--giallo-modena);
+}

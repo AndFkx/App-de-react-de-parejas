@@ -1,0 +1,47 @@
+/* ===== Tokens de diseño "Passione Rossa" ===== */
+:root {
+  --rosso-corsa: #d40000;   /* rojo principal, color de marca */
+  --nero: #0b0b0b;          /* negro casi puro, fondo del navbar y del hero */
+  --grigio-scuro: #1c1c1c;  /* gris oscuro para texto secundario */
+  --bianco: #f5f1e8;        /* blanco hueso, fondo general */
+  --giallo-modena: #ffd100; /* amarillo acento, solo para detalles puntuales */
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: var(--bianco);
+  color: var(--nero);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+.display {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Contenedor centrado reutilizable en todas las vistas */
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}

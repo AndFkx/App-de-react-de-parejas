@@ -1,0 +1,42 @@
+.contacto {
+  padding: 3rem 0 4rem;
+  max-width: 520px;
+}
+
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.contacto__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-weight: 500;
+}
+
+.contacto__form input,
+.contacto__form textarea {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #ccc;
+}
+
+.contacto__form button {
+  align-self: flex-start;
+  background: var(--rosso-corsa);
+  color: var(--bianco);
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.contacto__form button:hover {
+  background: #a80000;
+}

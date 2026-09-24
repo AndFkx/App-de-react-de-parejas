@@ -1,0 +1,19 @@
+.acerca {
+  padding: 3rem 0 4rem;
+}
+
+.acerca__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.acerca__grid article {
+  border-top: 3px solid var(--rosso-corsa);
+  padding-top: 1rem;
+}
+
+.acerca__grid h2 {
+  margin-bottom: 0.6rem;
+}

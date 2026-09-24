@@ -1,0 +1,14 @@
+.not-found {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  color: var(--rosso-corsa);
+}
+
+.not-found a {
+  color: var(--nero);
+  text-decoration: underline;
+}

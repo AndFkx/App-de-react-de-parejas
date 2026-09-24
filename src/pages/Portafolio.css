@@ -1,0 +1,35 @@
+.portafolio {
+  padding: 3rem 0 4rem;
+}
+
+.portafolio__intro {
+  max-width: 60ch;
+  margin: 0.8rem 0 2.5rem;
+  color: var(--grigio-scuro);
+}
+
+.portafolio__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Tarjeta con esquina cortada, evoca una placa/livery de carreras */
+.modelo-card {
+  background: var(--nero);
+  color: var(--bianco);
+  padding: 2rem 1.2rem 1.4rem;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 90% 100%, 0 100%);
+  border-top: 4px solid var(--rosso-corsa);
+}
+
+.modelo-card__plate {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.modelo-card__precio {
+  color: var(--giallo-modena);
+  font-weight: 600;
+}
